@@ -2,12 +2,10 @@
 
 This project is a recreation/clone of the **Amazon** e-commerce interface and functionality, developed using **Vanilla JavaScript (ES6 Modules)**, HTML5, and CSS3.
 
----
-
-## 📌 About the Project
-
 The original code was built as part of hands-on learning based on the JavaScript course from the channel:
 [SuperSimpleDev] (https://www.youtube.com/@supersimpledev)**.
+
+Website Link: 
 
 ---
 
