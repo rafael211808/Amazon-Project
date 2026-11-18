@@ -1,66 +1,66 @@
-# 🛒 Projeto Amazon (JavaScript Clone)
+# 🛒 Amazon Project (JavaScript Clone)
 
-Este projeto é uma recriação/clone da interface e funcionalidades do e-commerce da **Amazon**, desenvolvido com **JavaScript Vanilla (ES6 Modules)**, HTML5 e CSS3.
+This project is a recreation/clone of the **Amazon** e-commerce interface and functionality, developed using **Vanilla JavaScript (ES6 Modules)**, HTML5, and CSS3.
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-O código original foi construído como parte do aprendizado prático com base no **curso de JavaScript do canal:
+The original code was built as part of hands-on learning based on the JavaScript course from the channel:
 [SuperSimpleDev] (https://www.youtube.com/@supersimpledev)**.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- **Catálogo de Produtos:** Renderização dinâmica da grade de produtos a partir de dados locais (`products.js`).
-- **Filtro de Busca:** Pesquisa por nome do produto ou palavras-chave na barra de navegação.
-- **Gerenciamento do Carrinho:**
-  - Adição de produtos com seleção de quantidade.
-  - Atualização automática da quantidade total no cabeçalho.
-  - Remoção de itens e alteração de quantidades no checkout.
-  - Persistência de dados utilizando a API do `localStorage`.
-- **Seleção de Opções de Entrega:** Cálculo dinâmico do custo de frete e atualização imediata do resumo do pedido.
-- **Simulação de Pedidos & Rastreamento:**
-  - Geração local de pedidos ao clicar em "Place your order".
-  - Página de histórico de pedidos (`orders.html`).
-  - Tela de rastreamento (`tracking.html`) com cálculo de progresso de entrega usando `Day.js`.
-- **Suporte a Classes de Produtos:** Classes orientadas a objetos (`Product`, `Clothing`, `Appliance`) com comportamentos e links customizados.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5 & CSS3** (Design responsivo e layout modular)
-- **JavaScript ES6+** (Modules (`import`/`export`), Async/Await, Promises, OOP com Classes)
-- **LocalStorage API** (Armazenamento dos dados do carrinho e pedidos)
-- **Day.js** (Manipulação e cálculo de datas de entrega)
-- **Jasmine** (Suíte de testes unitários e de integração automatizados)
+- **Product Catalog:** Dynamic rendering of the product grid based on local data (`products.js`).
+- **Search Filter:** Search for products by name or keywords via the navigation bar.
+- **Cart Management:**
+- Adding products with quantity selection. 
+- Automatic updates to the total item count in the header. 
+- Removing items and adjusting quantities during checkout. 
+- Data persistence using the `localStorage` API.
+- **Delivery Options:** Dynamic calculation of shipping costs with real-time updates to the order summary.
+- **Order Simulation & Tracking:**
+- Local order generation upon clicking "Place your order." 
+- Order history page (`orders.html`). 
+- Tracking screen (`tracking.html`) with delivery progress calculation using `Day.js`.
+- **Product Class Support:** Object-oriented classes (`Product`, `Clothing`, `Appliance`) with custom behaviors and links.
 
 ---
 
-## 📁 Estrutura de Pastas
+## 🛠️ Technologies Used
+
+- **HTML5 & CSS3** (Responsive design and modular layout)
+- **JavaScript ES6+** (Modules (`import`/`export`), Async/Await, Promises, OOP with Classes)
+- **LocalStorage API** (Storage for cart data and orders)
+- **Day.js** (Date manipulation and delivery date calculations)
+- **Jasmine** (Automated unit and integration testing suite)
+
+---
+
+## 📁 Folder Structure
 
 ```text
 javascript-amazon-project/
-├── data/                      # Dados da aplicação (Produtos, Carrinho, Pedidos, Frete)
+├── data/                      # Application data (Products, Cart, Orders, Shipping)
 │   ├── cart.js
 │   ├── deliveryOptions.js
 │   ├── orders.js
 │   └── products.js
-├── images/                    # Imagens de produtos, ícones e avaliações
-├── scripts/                   # Lógica JavaScript das páginas e utilitários
-│   ├── checkout/              # Módulos específicos do checkout (resumo do pedido, pagamentos, etc.)
-│   ├── utils/                 # Funções utilitárias (formatação de moeda, etc.)
-│   ├── amazon.js              # Script da página principal
-│   ├── checkout.js            # Script da página de checkout
-│   ├── orders.js              # Script da página de histórico de pedidos
-│   └── tracking.js            # Script da página de rastreamento
-├── tests/                     # Testes automatizados com Jasmine
+├── images/                    # Product images, icons, and ratings
+├── scripts/                   # JavaScript logic for pages and utilities
+│   ├── checkout/              # Checkout-specific modules (order summary, payments, etc.)
+│   ├── utils/                 # Utility functions (currency formatting, etc.)
+│   ├── amazon.js              # Main page script
+│   ├── checkout.js            # Checkout page script
+│   ├── orders.js              # Order history page script
+│   └── tracking.js            # Tracking page script
+├── tests/                     # Automated tests using Jasmine
 │   ├── data/
 │   ├── utils/
 │   └── checkout/
-├── amazon.html                # Página principal (Catálogo)
-├── checkout.html              # Página do carrinho e checkout
-├── orders.html                # Página de pedidos realizados
-└── tracking.html              # Página de rastreamento de entrega
+├── amazon.html                # Main page (Catalog)
+├── checkout.html              # Cart and checkout page
+├── orders.html                # Past orders page
+└── tracking.html              # Delivery tracking page
