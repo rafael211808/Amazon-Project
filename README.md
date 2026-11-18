@@ -5,8 +5,6 @@ This project is a recreation/clone of the **Amazon** e-commerce interface and fu
 The original code was built as part of hands-on learning based on the JavaScript course from the channel:
 [SuperSimpleDev] (https://www.youtube.com/@supersimpledev)**.
 
-Website Link: https://rafael211808.github.io/Amazon-Project/
-
 ---
 
 ## 🚀 Features
